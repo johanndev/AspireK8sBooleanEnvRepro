@@ -1,0 +1,20 @@
+<Project Sdk="Aspire.AppHost.Sdk/13.2.0-preview.1.26109.1">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>c13d32b8-0f7d-4af9-979b-dfafac4b5896</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.Kubernetes" />
+    <PackageReference Include="Scalar.Aspire" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\\Repro.ApiService\\Repro.ApiService.csproj" />
+  </ItemGroup>
+
+</Project>
